@@ -1,0 +1,20 @@
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    namespace Program54
+    {
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double r1 = 1.0 / 0.0;      // Infinity
+            double r2 = 0.0 / 0.0;      // NaN
+
+            Console.WriteLine($"1.0/0.0 = {r1}");   // Infinity
+            Console.WriteLine($"0.0/0.0 = {r2}");   // NaN
+        }
+    }
+    }
